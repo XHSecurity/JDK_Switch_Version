@@ -49,7 +49,7 @@ wmic ENVIRONMENT where "name='JAVA_HOME'" delete
 wmic ENVIRONMENT create name="JAVA_HOME",username="<system>",VariableValue="%TARGET_JAVA_HOME%"
 
 rem -- refresh env ---
-call "C:\Users\xhsecurity\Downloads\JDK多版本切换配置\SwitchVersion V1.0\RefreshEnv.exe"
+call "C:\Users\demo\Downloads\SwitchVersion V1.0\RefreshEnv.exe"
 
 echo.
 echo.
